@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import Footer from "./componentes/Footer";
 import logo from "./img/logo.png";
 
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
           <button onClick={onClickBotao}> Clique aqui! </button>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }
